@@ -1,0 +1,40 @@
+1. front-end : React
+    * requirements : 
+        - node js 
+        - react library 
+    * steps : 
+        - npm create vite@latest front-end -- --template react
+        - cd front-end 
+        - npm i --save-dev
+        - npm run dev 
+        - using temperary api for movies - TMDB 
+            a72ebfd636fdc954a5e450c370081ad1
+            eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNzJlYmZkNjM2ZmRjOTU0YTVlNDUwYzM3MDA4MWFkMSIsIm5iZiI6MTcyNjA5MDg4OC4zMzU0NDQsInN1YiI6IjY2ZGRhZDVhYzEwODkyMjJlYmVjNzE3YSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.CqmLB-GDjCo3poRQgXol-gSDnvj3df9Zi4s56AmsxpQ
+    * front end project structure :
+        ├── node_modules/
+        ├── public/ 
+        ├── index.html         # Main HTML template
+        ├── package.json       # Project dependencies and scripts
+        ├── vite.config.js     # Vite configuration file
+        ├── src/
+            |-- components/ (Reusable components)
+            |-- pages/ (All major pages like Home, MovieDetail, etc.)
+            |-- services/ (Axios configurations)
+            |-- store/ (Redux store or Context API setup)
+            |-- styles/ (Global CSS or theme management)
+         
+2. back-end : Spring Boot 
+    * Project sturcture : 
+        /src/main/java/com/example/moviewebsite
+        |-- controller/ (REST API controllers)
+        |-- service/ (Business logic)
+        |-- repository/ (JPA repositories)
+        |-- model/ (Entities)
+        |-- dto/ (Data transfer objects)
+    * application properties - Data base 
+        spring.datasource.url=jdbc:postgresql://localhost:5432/moviesdb
+        spring.datasource.username=yourusername
+        spring.datasource.password=yourpassword
+        spring.jpa.hibernate.ddl-auto=update
+        spring.jpa.show-sql=true
+
