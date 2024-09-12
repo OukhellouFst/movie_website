@@ -1,9 +1,9 @@
-import MainMovie from "./components/Movie/Movie"
+import MainPage from "./pages/MainPage"
 
 function App() {
   return (
     <>
-      <MainMovie/>
+      <MainPage/>
     </>
   )
 }

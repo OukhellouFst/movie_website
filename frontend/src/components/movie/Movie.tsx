@@ -1,5 +1,5 @@
-import MovieCard from "./MovieCard"
 import useMoviesResponse from "../../hooks/useMoviesResponse"
+import MovieCard from "./MovieCard";
 import "./MovieCard.css"
 /**
  * This component could contain both the MovieCard and MovieDetails components. Depending on the app's state, it can render different views.

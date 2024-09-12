@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.header__logo{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.header__navigation{
+    display: flex;
+    gap: 1rem;
+}
+
+.header__navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.header__navigation a.header__nav-active {
+    border-bottom: 2px solid yellow;
+}
+
+.header__user-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__user-menu img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+}
